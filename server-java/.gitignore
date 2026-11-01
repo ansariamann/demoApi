@@ -1,0 +1,14 @@
+# Maven build output (includes the fat JAR and the .lst file with local paths)
+target/
+
+# SQLite database — contains real request data, never commit
+api_explorer.db
+api_explorer.db-shm
+api_explorer.db-wal
+
+# IDE / OS
+.idea/
+*.iml
+.DS_Store
+Thumbs.db
+
